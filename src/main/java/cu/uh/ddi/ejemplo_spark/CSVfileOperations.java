@@ -4,11 +4,7 @@
  */
 package cu.uh.ddi.ejemplo_spark;
 
-import java.util.Arrays;
-import java.util.List;
 import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaPairRDD;
-import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
