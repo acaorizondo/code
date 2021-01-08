@@ -8,9 +8,6 @@ package cu.uh.ddi.ejemplo_spark;
 import cu.uh.ddi.spark.util.SparkSessionUtil;
 import cu.uh.ddi.spark.util.DataSourceFileUtil;
 
-import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaSparkContext;
-
 import org.apache.spark.ml.classification.MultilayerPerceptronClassifier;
 import org.apache.spark.ml.feature.VectorAssembler;
 import org.apache.spark.ml.feature.Normalizer;
@@ -25,7 +22,7 @@ import org.apache.spark.mllib.evaluation.MulticlassMetrics;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
-import static org.apache.spark.sql.functions.col;
+
 
 /**
  *
